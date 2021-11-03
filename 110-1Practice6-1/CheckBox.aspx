@@ -10,7 +10,11 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:CheckBox ID="CheckBox1" runat="server" />
+            <asp:RadioButton ID="rb_v1" runat="server" GroupName="fruit" value="buy" Text="購買"/>
+            <asp:RadioButton ID="rb_v2" runat="server" GroupName="fruit" value="nbuy" Text="不購買"/>
+            <asp:CheckBox ID="cb_v1" runat="server" GroupName="fruit" value="fruit1" Text="蘋果"/>
+            <asp:CheckBox ID="cb_v2" runat="server" GroupName="fruit" value="fruit2" Text="香蕉"/>
+            <asp:Button ID="btn" runat="server" Text="Button" PostBackUrl="CheckBoxCom.aspx" />
         </div>
     </form>
 </body>
