@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CheckBox.aspx.cs" Inherits="_110_1Practice6_1.CheckBox" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="RadioButCom.aspx.cs" Inherits="_110_1Practice6_1.RadioButCom" %>
 
 <!DOCTYPE html>
 
@@ -10,7 +10,6 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:CheckBox ID="CheckBox1" runat="server" />
         </div>
     </form>
 </body>
